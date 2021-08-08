@@ -1,0 +1,12 @@
+#prime
+while True:
+    n = eval(input('n='))
+    flag = 0
+    for i in range(2, n):
+        if n % i == 0:
+            print('f')
+            flag += 1
+            break
+    if flag == 0:
+        print('t')
+        
